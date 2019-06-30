@@ -22,7 +22,7 @@ print "".center(LINE_WIDTH,'#'), '\n'
 
 mu = 0.3                            # friction coefficient
 fMin = 1.0                          # minimum normal force
-fMax = 100.0                       # maximum normal force
+fMax = 600.0                       # maximum normal force
 contact_frames = ['RL_foot', 'RR_foot', 'FL_foot', 'FR_foot']
 contactNormal = np.matrix([0., 0., 1.]).T   # direction of the normal to the contact surface
 
